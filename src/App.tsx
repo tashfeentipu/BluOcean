@@ -1,12 +1,12 @@
 import React from 'react';
-import NavBar from "./Containers/Header";
+import Header from "./Containers/Header";
 import Footer from "./Containers/Footer";
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <Footer />
+      <Header />
+      {/* <Footer /> */}
     </div>
   );
 }

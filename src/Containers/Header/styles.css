@@ -1,0 +1,51 @@
+.SearchBox {
+    width: 465px;
+    height: 55px;
+    border: 2px solid rgba(201, 201, 210, 0.27);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.LogoText {
+    font-family: Sofia Pro;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.LogoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.NavItem {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    color: #0F0E36;
+}
+
+.NavItemActive {
+    color: #DEAD2D;
+}
+
+.ConnectWalletButton {
+    background: none;
+    border: 2px solid #0F0E36;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 160px;
+    height: 55px;
+}
+
+.ExportIconContainer {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1838DE;
+    border: none;
+}
