@@ -6,29 +6,6 @@
     border-radius: 5px;
 }
 
-.LogoText {
-    font-family: Sofia Pro;
-    font-weight: 500;
-    font-size: x-large;
-}
-
-.LogoContainer {
-    display: flex;
-    align-items: center;
-}
-
-.NavItem {
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 15px;
-    color: #0F0E36;
-}
-
-.NavItemActive {
-    color: #DEAD2D;
-}
 
 .ConnectWalletButton {
     background: none;

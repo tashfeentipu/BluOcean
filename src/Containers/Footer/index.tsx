@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Row, Col } from "reactstrap";
-import Logo from "../../Assets/Logo.png";
+import Logo from "../../Components/Logo";
+import NavItems from "../../Components/NavItems";
 import './styles.css'
 
 interface IProps {
@@ -16,21 +17,9 @@ class Footer extends Component {
     render() {
         return (
             <Row className="FooterMainContainer" >
-                <Col lg={1}  >
-                    <img src={Logo} />
-                    <div>bluocean </div>
-                </Col>
                 <Col>
-                    Explore
-                </Col>
-                <Col>
-                    Resources
-                </Col>
-                <Col>
-                    Stats
-                </Col>
-                <Col>
-                    Rewards
+                    <Logo />
+                    <NavItems />
                 </Col>
             </Row>
         );

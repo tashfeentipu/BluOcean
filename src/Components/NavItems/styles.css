@@ -1,0 +1,18 @@
+.NavItemContainer {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.NavItem {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    color: #0F0E36;
+}
+
+.NavItemActive {
+    color: #DEAD2D;
+}

@@ -1,0 +1,10 @@
+.LogoText {
+    font-family: Sofia Pro;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.LogoContainer {
+    display: flex;
+    align-items: center;
+}

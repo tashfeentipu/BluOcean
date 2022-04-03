@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Navbar } from "reactstrap";
-import Logo from "../../Assets/Logo.png";
 import ExportIcon from "../../Assets/ExportIcon.png";
 import SearchBox from "./SearchBox";
+
+import Logo from "../../Components/Logo";
 import './styles.css';
+import NavItems from "../../Components/NavItems";
 
 interface IProps {
 
@@ -18,15 +20,9 @@ class Header extends Component {
     render() {
         return (
             <Navbar bg="light" expand="lg">
-                <div className="LogoContainer" >
-                    <img src={Logo} />
-                    <div className="LogoText" >Bluocean</div>
-                </div>
+                <Logo />
                 <SearchBox />
-                <div className="NavItem" >Explore</div>
-                <div className="NavItem" >Resources</div>
-                <div className="NavItem">Stats</div>
-                <div className="NavItem NavItemActive">Rewards</div>
+                <NavItems />
                 <button className="ConnectWalletButton" >
                     Connect wallet
                 </button>
