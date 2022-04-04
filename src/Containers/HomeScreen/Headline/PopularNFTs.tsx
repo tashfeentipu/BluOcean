@@ -26,24 +26,31 @@ class PopularNFTs extends Component<IProps, IState> {
         return (
             <div className="PopularNFTsMainContainer" >
                 <img src={this.props.avatar} />
-                <div>
-                    <div>{this.props.name}</div>
-                    <img src={AvatarOwner} />
-                    <AiFillHeart />
-                    <img src={Network} />
-                </div>
-                <hr />
-                <div>
+                <div className="PopularNFTsNameContainer" >
+                    <div className="PopularNFTsOwnerName" >{this.props.name}</div>
                     <div>
-                        {this.props.time}
-                        Remaining Time
+                        <img src={AvatarOwner} />
+                        <AiFillHeart />
+                        <img src={Network} />
                     </div>
-                    <div>
+                </div>
+                <div className="PopularNFTsFooterContainer" >
+                    <div style={{ display: "flex", flexDirection: "column" }} >
+                        <span>
+                            {this.props.time}
+                        </span>
+                        <span>
+                            Remaining Time
+                        </span>
+                    </div>
+                    <div style={{ display: "flex", flexDirection: "column" }}  >
                         <span>
                             <img src={Exclude} />
                             {this.props.bid}
                         </span>
-                        Highest Bid
+                        <span>
+                            Highest Bid
+                        </span>
                     </div>
                 </div>
             </div>

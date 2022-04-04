@@ -1,3 +1,106 @@
+.HeadlineMainContainer {
+    height: 853px;
+    background: radial-gradient(50.06% 50.06% at 40.84% 49.94%, rgba(24, 56, 222, 0.1) 0%, rgba(254, 254, 254, 0) 100%);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.HeadlineMainHeading {
+    width: 28.688vw;
+    height: 229px;
+    font-family: 'Recoleta';
+    font-size: 3.5rem;
+    line-height: 5rem;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.HeadlineSubHeading {
+    width: 489px;
+    height: 59px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    color: #B4B4BF;
+}
+
+.ExploreArtwork {
+    width: 172px;
+    height: 19px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 95.6%;
+}
+
+.ArrowRightStyle {
+    font-size: 22px;
+    color: #0F0E36;
+}
+
+.HeadlinePopularNFTsContainer {
+}
+
+.HeadlineStatsCol {
+    color: #B4B4BF;
+    display: flex;
+    max-height: 477px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.HeadlineStatsBold {
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.HeadlineStatsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .PopularNFTsMainContainer {
-    
+    width: 21.063vw;
+    height: 477px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border: 1px solid #EFEFF2;
+    box-sizing: border-box;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.PopularNFTsNameContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.PopularNFTsFooterContainer {
+    display: flex;
+    height: 20%;
+    border-top: 1px solid #EFEFF2;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.PopularNFTsOwnerName {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
 }

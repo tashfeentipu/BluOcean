@@ -18,34 +18,48 @@ class Headline extends Component {
 
     render() {
         return (
-            <Row className="MainContainer" >
+            <Row className="HeadlineMainContainer" >
                 <Col>
-                    <div>
-                        Discover Rare
-                        Collections Of
-                        Art & NFTs.
+                    <div className="HeadlineMainHeading" >
+                        Discover <b> Rare
+                            Collections
+                        </b> Of
+                        <b>
+                            Art & NFTs.
+                        </b>
                     </div>
-                    <div>
+                    <div className="HeadlineSubHeading" >
                         Bluocean.xyz is the community-first NFT
                         marketplace with rewards for participating.
                     </div>
-                    <div>
-                        Explore Artwork
-                        <BsArrowRight />
+                    <div style={{ color: "#0F0E36" }}>
+                        <span className="ExploreArtwork" >
+                            Explore Artwork
+                        </span>
+                        <BsArrowRight className="ArrowRightStyle" />
                         <hr />
                         <FaDiscord />
                         <FaTwitter />
                     </div>
                 </Col>
-                <Col>
+                <Col className="HeadlinePopularNFTsContainer" >
                     <PopularNFTs name={"DeadFellaz#7084"} time={"12m : 03s"} bid={"53.90"} avatar={Avatar1} />
                 </Col>
-                <Col>
-                    <div>20.9K+
+                <Col className="HeadlineStatsCol" lg={2} >
+                    <div className="HeadlineStatsContainer" >
+                        <span className="HeadlineStatsBold" >
+                            20.9K+
+                        </span>
                         Art Work</div>
-                    <div>9.3M+
+                    <div className="HeadlineStatsContainer" >
+                        <span className="HeadlineStatsBold" >
+                            9.3M+
+                        </span>
                         Artists</div>
-                    <div>54K+
+                    <div className="HeadlineStatsContainer" >
+                        <span className="HeadlineStatsBold" >
+                            54K+
+                        </span>
                         In Auction</div>
                 </Col>
             </Row>
