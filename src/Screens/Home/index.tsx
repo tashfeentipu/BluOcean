@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
+import FeaturedArtists from "../../Containers/HomeScreen/FeaturedArtists";
 import Headline from "../../Containers/HomeScreen/Headline";
 import './styles.css'
 
@@ -17,6 +18,7 @@ class HomeScreen extends Component {
         return (
             <Container className="HomeMainContainer" >
                 <Headline />
+                <FeaturedArtists />
             </Container>
         );
     }

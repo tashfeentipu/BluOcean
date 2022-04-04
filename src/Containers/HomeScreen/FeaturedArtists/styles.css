@@ -1,0 +1,49 @@
+.FeaturedArtistsMainContainer {}
+
+.FeaturedArtistsHeading {
+    height: 2.25rem;
+    font-family: 'Recoleta';
+    font-size: 2.25rem;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.FeaturedArtistsContent {
+    height: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 20px;
+    text-align: center;
+    color: #B4B4BF;
+}
+
+.FACContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.FACMainContainer {
+    width: 24.938vw;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.FACImage {
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+}
+
+.FACTitle {
+    /* position: absolute; */
+}
+
+.FACDescription {
+    /* position: absolute; */
+}

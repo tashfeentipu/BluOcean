@@ -23,8 +23,7 @@ class Headline extends Component {
                     <div className="HeadlineMainHeading" >
                         Discover <b> Rare
                             Collections
-                        </b> Of
-                        <b>
+                        </b> Of <b>
                             Art & NFTs.
                         </b>
                     </div>
