@@ -1,6 +1,6 @@
 .SearchBox {
     width: 29.063vw;
-    height: 55px;
+    height: 7.16vh;
     border: 2px solid rgba(201, 201, 210, 0.27);
     box-sizing: border-box;
     border-radius: 5px;
@@ -12,17 +12,31 @@
     border: 2px solid #0F0E36;
     box-sizing: border-box;
     border-radius: 5px;
-    width: 160px;
-    height: 55px;
+    width: 11.7vw;
+    height: 7.16vh;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 15px;
+    text-align: center;
+    color: #0F0E36;
+
 }
 
 .ExportIconContainer {
-    width: 55px;
-    height: 55px;
+    width: 7.16vh;
+    height: 7.16vh;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #1838DE;
     border: none;
+}
+
+.HeaderButtonContainer {
+    display: flex;
+    width: 16.105vw;
+    justify-content: space-between;
 }

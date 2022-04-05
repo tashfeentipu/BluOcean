@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { Row, Col } from "reactstrap";
 import Logo from "../../Components/Logo";
 import NavItems from "../../Components/NavItems";
-import './styles.css'
+import './styles.css';
 
 interface IProps {
 
@@ -16,18 +15,18 @@ class Footer extends Component {
 
     render() {
         return (
-            <Row className="FooterMainContainer" >
-                <Col>
-                    <Logo />
-                    <NavItems />
-                </Col>
-                <div>
-                    The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.
+            <div className="FooterMainContainer" >
+                <Logo />
+                <NavItems />
+                <div className="FooterTextContainer" >
+                    <div className="FooterText1">
+                        The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.
+                    </div>
+                    <div className="FooterText1" style={{ textAlign: "end" }} >
+                        © 2022 Bluocean.xyz
+                    </div>
                 </div>
-                <div>
-                    © 2022 Bluocean.xyz
-                </div>
-            </Row>
+            </div>
         );
     }
 }

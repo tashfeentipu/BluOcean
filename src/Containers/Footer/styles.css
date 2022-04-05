@@ -1,3 +1,26 @@
 .FooterMainContainer {
-    background-color: pink;
+    height: 219px;
+    margin-right: 2em;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FooterTextContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterText1 {
+    width: 31.250vw;
+    display: flex;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    color: #B4B4BF;
+    align-items: center;
+    justify-content: flex-end;
 }

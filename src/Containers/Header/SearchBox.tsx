@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SearchIcon from "../../Assets/SearchIcon.png";
 import './styles.css'
 
 interface IProps {
@@ -13,7 +14,10 @@ class SearchBox extends Component {
 
     render() {
         return (
-            <input placeholder="Search Any Collection" className="SearchBox" />
+            <div>
+                <img src={SearchIcon} />
+                <input placeholder="Search Any Collection" className="SearchBox" />
+            </div>
         );
     }
 }

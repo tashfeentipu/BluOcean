@@ -23,12 +23,14 @@ class Header extends Component {
                 <Logo />
                 <SearchBox />
                 <NavItems />
-                <button className="ConnectWalletButton" >
-                    Connect wallet
-                </button>
-                <button className="ExportIconContainer" >
-                    <img src={ExportIcon} />
-                </button>
+                <div className="HeaderButtonContainer" >
+                    <button className="ConnectWalletButton" >
+                        Connect wallet
+                    </button>
+                    <button className="ExportIconContainer" >
+                        <img src={ExportIcon} style={{ width: "auto", height: "auto" }} />
+                    </button>
+                </div>
             </Navbar>
         );
     }
