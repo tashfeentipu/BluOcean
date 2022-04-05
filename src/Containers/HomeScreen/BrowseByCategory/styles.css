@@ -1,10 +1,11 @@
-.BuySellNFTsMainContainer {
-    height: 450px;
+.BBCMainContainer {
+    height: 300px;
+    display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.BuySellNFTsHeading {
+.BBCHeading {
     height: 36px;
     font-family: 'Recoleta';
     font-style: normal;
@@ -16,7 +17,7 @@
     margin-bottom: 0.5em;
 }
 
-.BuySellNFTsContent {
+.BBCContent {
     height: 15px;
     font-family: 'Sofia Pro';
     font-style: normal;
@@ -27,22 +28,21 @@
     color: #B4B4BF;
 }
 
-.BSCardMainContainer {
-    width: 17.938vw;
-    height: 189px;
+.BBCCardMainContainer {
+    width: 17vw;
+    height: 65.32px;
     background: #FFFFFF;
     border: 1px solid #EFEFF2;
     box-sizing: border-box;
     border-radius: 5px;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-.BSCTitle {
-    width: 14.500vw;
-    height: 25px;
+.BBCCardName {
+    width: 17.8vw;
+    height: 24.49px;
     font-family: 'Sofia Pro';
     font-style: normal;
     font-weight: 600;
@@ -50,26 +50,4 @@
     line-height: 1.8rem;
     letter-spacing: 0.01em;
     color: #0F0E36;
-}
-
-.BSCContent {
-    width: 14.500vw;
-    height: 105px;
-    font-family: 'Sofia Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.8rem;
-    line-height: 1.25rem;
-    color: #B4B4BF;
-}
-
-.BuySellRightArrow {
-    width: 3.5vw;
-    height: 3.5vw;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #0F0E36;
-
 }
