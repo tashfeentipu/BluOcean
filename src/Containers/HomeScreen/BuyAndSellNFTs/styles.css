@@ -1,0 +1,64 @@
+.BuySellNFTsMainContainer {
+    height: 450px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.BuySellNFTsHeading {
+    height: 36px;
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+
+}
+
+.BuySellNFTsContent {
+    height: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    text-align: center;
+    color: #B4B4BF;
+}
+
+.BSCardMainContainer {
+    width: 17.938vw;
+    height: 189px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFF2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BSCTitle {
+    width: 14.500vw;
+    height: 25px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.BSCContent {
+    width: 14.500vw;
+    height: 105px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    color: #B4B4BF;
+}

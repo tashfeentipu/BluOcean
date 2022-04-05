@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap";
+import BuySellNFTs from "../../Containers/HomeScreen/BuyAndSellNFTs";
 import FeaturedArtists from "../../Containers/HomeScreen/FeaturedArtists";
 import Headline from "../../Containers/HomeScreen/Headline";
 import TopCollections from "../../Containers/HomeScreen/TopCollections";
@@ -21,6 +22,7 @@ class HomeScreen extends Component {
                 <Headline />
                 <FeaturedArtists />
                 <TopCollections />
+                <BuySellNFTs />
             </Container>
         );
     }

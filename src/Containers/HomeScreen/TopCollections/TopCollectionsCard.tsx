@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Col } from "reactstrap";
 import AvatarOwner from "../../../Assets/AvatarOwner.png";
 import Exclude from "../../../Assets/Exclude.png";
 import './styles.css'
@@ -22,7 +23,7 @@ class TopCollectionsCard extends Component<IProps, IState> {
 
     render() {
         return (
-            <div className="TCCMainContainer" >
+            <Col lg={3} className="TCCMainContainer" >
                 <div className="TCCHeader" >
                     <img src={AvatarOwner} />
                     <div className="TCCHeaderContainer" >
@@ -47,7 +48,7 @@ class TopCollectionsCard extends Component<IProps, IState> {
                     </div>
 
                 </div>
-            </div>
+            </Col>
         );
     }
 }

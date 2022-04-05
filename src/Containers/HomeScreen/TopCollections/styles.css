@@ -1,19 +1,19 @@
 .TopCollectionsMainContainer {
-    height: 600px;
+    height: 450px;
     align-items: center;
+    justify-content: space-around;
 }
 
 .TopCollectionsHeading {
     height: 36px;
     font-family: 'Recoleta';
     font-style: normal;
-    font-weight: 265;
     font-size: 2.5rem;
     line-height: 1.8rem;
     text-align: center;
     letter-spacing: 0.01em;
-
     color: #0F0E36;
+    margin-top: 1em;
 }
 
 .TopCollectionsContent {
@@ -24,7 +24,6 @@
     font-size: 0.8rem;
     line-height: 1.25rem;
     text-align: center;
-
     color: #B4B4BF;
 }
 
@@ -35,7 +34,7 @@
     border: 1px solid #EFEFF2;
     box-sizing: border-box;
     overflow: hidden;
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .TCCHeader {

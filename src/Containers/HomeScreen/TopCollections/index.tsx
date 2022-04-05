@@ -20,12 +20,17 @@ class TopCollections extends Component<IProps, IState> {
         return (
             <Row className="TopCollectionsMainContainer" >
                 <Col lg={12} >
-                    <div className="TopCollectionsHeading">Top Collections</div>
-                    <div className="TopCollectionsContent">Here are the most popular collections over a period of 30 days</div>
+                    <div className="TopCollectionsHeading">Top <b>Collections</b></div>
+                    <div className="TopCollectionsContent">Here are the most popular collections over a period of <b style={{ color: "black" }} >30 days</b></div>
                 </Col>
-                <Col>
-                    <TopCollectionsCard name={"DeadFellaz#7084"} perc={"-2.93"} floorPrice={"0.93"} highestBid={"53.90"} />
-                </Col>
+                <TopCollectionsCard name={"DeadFellaz#7084"} perc={"-2.93"} floorPrice={"0.93"} highestBid={"53.90"} />
+                <TopCollectionsCard name={"DeadFellaz#7084"} perc={"-2.93"} floorPrice={"0.93"} highestBid={"53.90"} />
+                <TopCollectionsCard name={"DeadFellaz#7084"} perc={"-2.93"} floorPrice={"0.93"} highestBid={"53.90"} />
+                <TopCollectionsCard name={"DeadFellaz#7084"} perc={"-2.93"} floorPrice={"0.93"} highestBid={"53.90"} />
+                <TopCollectionsCard name={"DeadFellaz#7084"} perc={"-2.93"} floorPrice={"0.93"} highestBid={"53.90"} />
+                <TopCollectionsCard name={"DeadFellaz#7084"} perc={"-2.93"} floorPrice={"0.93"} highestBid={"53.90"} />
+                <TopCollectionsCard name={"DeadFellaz#7084"} perc={"-2.93"} floorPrice={"0.93"} highestBid={"53.90"} />
+                <TopCollectionsCard name={"DeadFellaz#7084"} perc={"-2.93"} floorPrice={"0.93"} highestBid={"53.90"} />
             </Row>
         );
     }
