@@ -1,0 +1,88 @@
+.GSCardMainContainer {
+    width: 21.010vw;
+    height: 190px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFF2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.GSHeadingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.GSTitle {
+    width: 17.423vw;
+    height: 25px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.GSDescription {
+    width: 16.984vw;
+    height: 105px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #B4B4BF;
+}
+
+.GSCardContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+}
+
+.GettingStartedHeading1 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    letter-spacing: 0.015em;
+    color: #BCBCCB;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.GettingStartedHeading2 {
+    width: 63.616vw;
+    height: 36px;
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+    margin-bottom: 1rem;
+
+}
+
+.GettingStartedHeading3 {
+    width: 63.616vw;
+    height: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    text-align: center;
+    color: #B4B4BF;
+}
