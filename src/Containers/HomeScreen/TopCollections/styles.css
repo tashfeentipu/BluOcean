@@ -1,0 +1,133 @@
+.TopCollectionsMainContainer {
+    height: 600px;
+    align-items: center;
+}
+
+.TopCollectionsHeading {
+    height: 36px;
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 265;
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #0F0E36;
+}
+
+.TopCollectionsContent {
+    height: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    text-align: center;
+
+    color: #B4B4BF;
+}
+
+.TCCMainContainer {
+    width: 17.938vw;
+    height: 144px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFF2;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px
+}
+
+.TCCHeader {
+    display: flex;
+    height: 57px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #EFEFF2;
+}
+
+.TCCHeaderContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 14.375vw;
+}
+
+.TCCName {
+    height: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.TCCPerc {
+    height: 14px;
+
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FF3434;
+}
+
+.TCCMainBody {
+    display: flex;
+    height: 86px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.TCCFloorPriceValue {
+    width: 7.938vw;
+    height: 11px;
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.05em;
+    color: #0F0E36;
+}
+
+.TCCFloorPrice {
+    width: 7.935vw;
+    height: 11px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    color: #B4B4BF;
+
+}
+
+.TCCHighestBidValue {
+    width: 2.438vw;
+    height: 11px;
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 0.75rem;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #0F0E36;
+}
+
+.TCCHighestBid {
+    width: 6.375vw;
+    height: 11px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    color: #B4B4BF;
+}

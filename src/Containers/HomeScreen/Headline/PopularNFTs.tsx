@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AvatarOwner from "../../../Assets/avatarOwner.png";
+import AvatarOwner from "../../../Assets/AvatarOwner.png";
 import Network from "../../../Assets/Network.png";
 import Exclude from "../../../Assets/Exclude.png";
 import { AiFillHeart } from "react-icons/ai";

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 import FeaturedArtists from "../../Containers/HomeScreen/FeaturedArtists";
 import Headline from "../../Containers/HomeScreen/Headline";
-import './styles.css'
+import TopCollections from "../../Containers/HomeScreen/TopCollections";
+import './styles.css';
 
 interface IProps {
 
@@ -19,6 +20,7 @@ class HomeScreen extends Component {
             <Container className="HomeMainContainer" >
                 <Headline />
                 <FeaturedArtists />
+                <TopCollections />
             </Container>
         );
     }
