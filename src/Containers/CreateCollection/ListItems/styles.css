@@ -1,0 +1,22 @@
+.ListItemMainContainer {
+    width: 21.010vw;
+    height: 60px;
+
+    background: #FFFFFF;
+    border: 1px solid #EFEFF2;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.01em;
+    margin-bottom: 1em;
+    color: #0F0E36;
+
+}
