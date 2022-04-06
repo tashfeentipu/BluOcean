@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap";
-import './styles.css'
 import TopNFTsTable from "../../Containers/TopNFTs";
+import './styles.css';
 
 interface IProps {
 }
