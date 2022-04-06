@@ -6,6 +6,7 @@ import './App.css'
 import GettingStarted from './Screens/GettingStarted';
 import CreateCollection from './Screens/CreateCollection';
 import TopNFTs from './Screens/TopNFTs';
+import SearchCollections from "./Screens/SearchCollections";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <HomeScreen /> */}
       {/* <GettingStarted /> */}
       {/* <CreateCollection /> */}
-      <TopNFTs />
+      {/* <TopNFTs /> */}
+      <SearchCollections />
       {/* <Footer /> */}
     </div>
   );

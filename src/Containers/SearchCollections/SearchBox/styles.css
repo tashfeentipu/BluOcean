@@ -1,0 +1,7 @@
+.SearchBoxMainContainer {
+    width: 50vw;
+
+    border: 2px solid #0F0E36;
+    box-sizing: border-box;
+    border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+.SearchCollectionsMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SearchCollectionsHeading {
+    width: 50vw;
+    height: 28px;
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 265;
+    font-size: 34px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.SearchCollectionsContent {
+    width: 46vw;
+    height: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #0F0E36;
+}
