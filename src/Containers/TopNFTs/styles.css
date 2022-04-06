@@ -1,0 +1,110 @@
+.TNTableMainContainer {}
+
+.TableHeaderMainContainer {
+    height: 48px;
+    border: 1px solid #EFEFF2;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TableBodyMainContainer {
+    height: 48px;
+    border: 1px solid #EFEFF2;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TableHeaderRow {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    color: #0F0E36;
+    padding-left: 1em;
+}
+
+.TableBodyData1 {
+    width: 17vw;
+    height: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+    padding-left: 1em;
+}
+
+.TableBodyData2 {
+    width: 6.589vw;
+    height: 11px;
+    padding-left: 1em;
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.05em;
+
+    color: #0F0E36;
+}
+
+.TableBodyData3 {
+    width: 5.271vw;
+    height: 14px;
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.05em;
+    padding-left: 1em;
+    color: #4AB139;
+
+}
+
+.TableBodyData4 {
+    width: 5.271vw;
+    height: 14px;
+    padding-left: 1em;
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 0.75rem;
+    letter-spacing: 0.05em;
+    color: #FF3434;
+}
+
+.TableBodyData5 {
+    width: 3vw;
+    height: 11px;
+    padding-left: 1em;
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 12px;
+    padding-left: 1em;
+    letter-spacing: 0.05em;
+    color: #0F0E36;
+}
+
+.TableBodyData6 {
+    width: 6.589vw;
+    height: 11px;
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    padding-left: 1em;
+    color: #0F0E36;
+}
