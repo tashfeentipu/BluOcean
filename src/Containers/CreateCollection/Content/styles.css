@@ -1,0 +1,23 @@
+.ContentMainContainer {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.ContentBodyH {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.ContentBodyP {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #B4B4BF;
+}

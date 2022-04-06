@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Col, Container, Row } from "reactstrap";
+import Content from "../../Containers/CreateCollection/Content";
 import ListItems from "../../Containers/CreateCollection/ListItems";
 import './styles.css'
 
@@ -33,7 +34,7 @@ class CreateCollection extends Component<IProps, IState> {
                         <ListItems />
                     </Col>
                     <Col lg={9} >
-
+                        <Content />
                     </Col>
                 </Row>
             </Container>
