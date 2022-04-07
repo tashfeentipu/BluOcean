@@ -34,10 +34,8 @@ class StakingScreen extends Component<IProps, IState> {
                         </button>
                     </div>
                     <div className="StakingIconBox1" >
-                        <div className="StakingIconBox2" >
-                            <div className="StakingIconBox3" >
-                                <img src={Subtract} alt="" style={{ width: "100%", height: "auto", }} />
-                            </div>
+                        <div className="StakingIconBox3" >
+                            <img src={Subtract} alt="" style={{ width: "100%", height: "auto", }} />
                         </div>
                     </div>
                 </div>

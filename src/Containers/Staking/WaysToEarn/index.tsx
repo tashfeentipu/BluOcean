@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import StakingContainer1 from "./StakingContainer1";
+import StakingContainer2 from "./StakingContainer2";
 import './styles.css'
 
 interface IProps {
@@ -17,9 +19,16 @@ class WaysToEarn extends Component<IProps, IState> {
     render() {
         return (
             <div className="WaysToEarnMainContainer" >
-                <div className="WaysToEarnHeading">Ways to <b>Earn</b></div>
-                <div className="WaysToEarnSubHeading" >Benefit by staking and trading, BLU helps you earn rewards. It’s simple.</div>
-                <div className="WaysToEarnHeading2" >Staking Heading </div>
+                <div>
+                    <div className="WaysToEarnHeading">Ways to <b>Earn</b></div>
+                    <div className="WaysToEarnSubHeading" >Benefit by staking and trading, BLU helps you earn rewards. It’s simple.</div>
+                    <div className="WaysToEarnHeading2" >Staking</div>
+                </div>
+                <div className="WTEStakingContainer" >
+
+                    <StakingContainer1 />
+                    <StakingContainer2 />
+                </div>
             </div>
         );
     }
