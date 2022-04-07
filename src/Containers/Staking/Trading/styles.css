@@ -1,0 +1,90 @@
+.TradingMainContainer {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.TradingMainHeading {
+    width: 264px;
+    height: 24px;
+
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+
+}
+
+.TradingContent {
+    width: 658.84px;
+    height: 36px;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #B4B4BF;
+
+}
+
+.TradingWithdrawButton {
+    width: 138px;
+    height: 46px;
+    align-self: flex-end;
+    background: #0F0E36;
+    border-radius: 5px;
+    border: none;
+}
+
+.TradingWithdrawButtonText {
+    width: 99.25px;
+    height: 11px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.TradingHeaderRow {
+    width: 118px;
+    height: 48px;
+    border: 1px solid #EFEFF2;
+    box-sizing: border-box;
+    padding-left: 1rem;
+}
+
+.TradingHeaderRowData {
+    width: 172px;
+    height: 10px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #0F0E36;
+}
+
+.TradingBodyRow {
+    height: 48px;
+    border: 1px solid #EFEFF2;
+    box-sizing: border-box;
+    padding-left: 1rem;
+}
+
+.TradingBodyRowData {
+    height: 10px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #0F0E36;
+}

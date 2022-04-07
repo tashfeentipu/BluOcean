@@ -8,6 +8,7 @@ import CreateCollection from './Screens/CreateCollection';
 import TopNFTs from './Screens/TopNFTs';
 import SearchCollections from "./Screens/SearchCollections";
 import CreateNewItem from './Screens/CreateNewItem';
+import StakingScreen from './Screens/Staking';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <CreateCollection /> */}
       {/* <TopNFTs /> */}
       {/* <SearchCollections /> */}
-      <CreateNewItem />
+      {/* <CreateNewItem /> */}
+      <StakingScreen />
       {/* <Footer /> */}
     </div>
   );

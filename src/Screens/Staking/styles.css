@@ -1,0 +1,78 @@
+.StakingMainHeadingContainer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.StakingMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.StakingMainHeading {
+    width: 52vw;
+    height: 36px;
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.StakingSubHeading {
+    width: 52vw;
+    height: 20px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #B4B4BF;
+}
+
+.StakingEarnNowButton {
+    width: 206px;
+    height: 46px;
+    background: #0F0E36;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+
+.StakingEarnNowButtonText {
+    width: 160px;
+    height: 11.71px;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+
+}
+
+.StakingIconBox1 {
+    width: 291.71px;
+    height: 291.71px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: matrix(0.71, 0.41, -1.22, 0.71, 0, 0);
+}
+
+.StakingIconBox2 {
+    width: 291.71px;
+    height: 291.71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(241, 241, 241, 0.58);
+    transform: matrix(0.71, 0.41, -1.22, 0.71, 0, 0);
+}
