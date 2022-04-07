@@ -22,25 +22,27 @@ class StakingScreen extends Component<IProps, IState> {
     render() {
         return (
             <Container className="StakingMainContainer" >
-                <div className="StakingMainHeadingContainer" >
-                    <div className="StakingMainHeading" >
-                        Bluocean <b>Staking - BLU</b>
+                <div className="StakingMainHeadingContainer1" >
+                    <div className="StakingMainHeadingContainer2" >
+                        <div className="StakingMainHeading" >
+                            Bluocean <b>Staking - BLU</b>
+                        </div>
+                        <div className="StakingSubHeading" >Safe and secure BLU staking. Up to <b>535.20% APY</b></div>
+                        <button className="StakingEarnNowButton" >
+                            <span className="StakingEarnNowButtonText" >Earn now</span>
+                            <img src={RightArrow} alt="" />
+                        </button>
                     </div>
-                    <div className="StakingSubHeading" >Safe and secure BLU staking. Up to <b>535.20% APY</b></div>
-                    <button className="StakingEarnNowButton" >
-                        <span className="StakingEarnNowButtonText" >Earn now</span>
-                        <img src={RightArrow} alt="" />
-                    </button>
-                </div>
-                {/* <div>
                     <div className="StakingIconBox1" >
                         <div className="StakingIconBox2" >
-                            <img src={Subtract} alt="" style={{ width: "90px", height: "123px",transform: "matrix(0.71, 0.41, -1.22, 0.71, 0, 0)" }} />
+                            <div className="StakingIconBox3" >
+                                <img src={Subtract} alt="" style={{ width: "100%", height: "auto", }} />
+                            </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
-                {/* <WaysToEarn /> */}
+                <WaysToEarn />
                 <Trading />
 
             </Container>

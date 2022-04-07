@@ -1,0 +1,43 @@
+.WaysToEarnMainContainer {
+    width: 720px;
+}
+
+.WaysToEarnHeading {
+    height: 36px;
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.WaysToEarnSubHeading {
+    height: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    text-align: center;
+    color: #B4B4BF;
+}
+
+.WaysToEarnHeading2 {
+    width: 264px;
+    height: 24px;
+
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 30px;
+    /* or 130% */
+
+    letter-spacing: 0.01em;
+
+    color: #0F0E36;
+
+
+}

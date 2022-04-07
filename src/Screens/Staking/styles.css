@@ -1,5 +1,12 @@
-.StakingMainHeadingContainer {
-    height: 150px;
+.StakingMainHeadingContainer1 {
+    width: 1274.08px;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.StakingMainHeadingContainer2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -60,19 +67,30 @@
 .StakingIconBox1 {
     width: 291.71px;
     height: 291.71px;
-    background: #FFFFFF;
+    border-radius: 50%;
+    background: rgba(241, 241, 241, 0.58);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: matrix(0.71, 0.41, -1.22, 0.71, 0, 0);
+    /* transform: matrix(0.71, 0.41, -1.22, 0.71, 0, 0); */
 }
 
 .StakingIconBox2 {
     width: 291.71px;
     height: 291.71px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(241, 241, 241, 0.58);
-    transform: matrix(0.71, 0.41, -1.22, 0.71, 0, 0);
+    background: #FFFFFF;
+    /* transform: matrix(0.71, 0.41, -1.22, 0.71, 0, 0); */
+}
+
+.StakingIconBox3 {
+    width: 90.13px;
+    height: 122.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

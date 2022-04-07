@@ -17,11 +17,9 @@ class WaysToEarn extends Component<IProps, IState> {
     render() {
         return (
             <div className="WaysToEarnMainContainer" >
-                <div>
-                    <div>Ways to <b>Earn</b></div>
-                    <div>Benefit by staking and trading, BLU helps you earn rewards. It’s simple.</div>
-                </div>
-                <div>Staking</div>
+                <div className="WaysToEarnHeading">Ways to <b>Earn</b></div>
+                <div className="WaysToEarnSubHeading" >Benefit by staking and trading, BLU helps you earn rewards. It’s simple.</div>
+                <div className="WaysToEarnHeading2" >Staking Heading </div>
             </div>
         );
     }
