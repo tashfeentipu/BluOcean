@@ -1,0 +1,280 @@
+.CreateNewItemMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CNIHeadingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CNIMiniHeading {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    letter-spacing: 0.015em;
+    color: #BCBCCB;
+}
+
+.CNIMainHeading {
+    width: 869px;
+    height: 36px;
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-size: 38px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.CNISubHeading {
+    width: 330px;
+    height: 20px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #B4B4BF;
+}
+
+.CNI-C1-Heading {
+    width: 373px;
+    height: 25px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.CNI-C1-SubHeading {
+    width: 507px;
+    height: 20px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #91919F;
+}
+
+.CNI-C1-Button {
+    width: 505px;
+    height: 178px;
+    border: 2px dashed #EFEFF2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.CNIContainer2 {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #EFEFF2;
+}
+
+.CNI-C2-Heading1 {
+    width: 373px;
+    height: 25px;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+
+    color: #0F0E36;
+}
+
+.CNI-C2-Input1 {
+    width: 505px;
+    height: 50px;
+    border: 2px solid #EFEFF2;
+    box-sizing: border-box;
+    padding-left: 1.5rem;
+    border-radius: 6px;
+    background: transparent;
+}
+
+.CNI-C2-Heading2 {
+    width: 373px;
+    height: 25px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.CNI-C2-SubHeading2 {
+    width: 507px;
+    height: 35px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #91919F;
+}
+
+.CNI-C2-Input2 {
+    width: 505px;
+    height: 50px;
+
+    border: 2px solid #EFEFF2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-left: 1.5rem;
+
+}
+
+.CNI-C2-Heading3 {
+    width: 373px;
+    height: 25px;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+
+    letter-spacing: 0.01em;
+
+    color: #0F0E36;
+
+}
+
+.CNI-C2-SubHeading3 {
+    width: 507px;
+    height: 35px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #91919F;
+
+}
+
+.CNI-C2-Input3 {
+    width: 505px;
+    height: 186px;
+    border: 2px solid #EFEFF2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-left: 1.5rem;
+}
+
+.CNI-C2-Heading4 {
+    width: 373px;
+    height: 25px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+
+}
+
+.CNI-C2-SubHeading4 {
+    width: 247px;
+    height: 26px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #91919F;
+}
+
+.CNI-C2-Input4 {
+    width: 505px;
+    height: 50px;
+    border: 2px solid #EFEFF2;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.CNI-C3-Image1 {
+    width: 12px;
+    height: 12px;
+    font-family: 'Font Awesome 6 Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #0F0E36;
+}
+
+.CNIContainer3 {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.CNI-C3-Image1Container {}
+
+.CNI-C3-PropertiesContainer {
+    display: flex;
+}
+
+.CNI-C3-PropertiesHeadingContainer {
+    display: flex;
+    align-items: center;
+}
+
+.CNI-C3-PropertiesHeadings {}
+
+.CNI-C3-PropertiesHeading {
+    width: 373px;
+    height: 25px;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+
+    color: #0F0E36;
+}
+
+.CNI-C3-PropertiesSubHeading {
+    width: 203px;
+    height: 26px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    color: #91919F;
+}
+
+.CNI-C3-PropertiesAddButton {
+    width: 33px;
+    height: 33px;
+    border: 2px solid #1838DE;
+    color: #1838DE;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
