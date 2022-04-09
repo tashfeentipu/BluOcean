@@ -4,6 +4,8 @@ import { BsArrowRight } from "react-icons/bs";
 import { FaDiscord, FaTwitter } from "react-icons/fa";
 import PopularNFTs from "./PopularNFTs";
 import Avatar1 from "../../../Assets/Avatar1.png";
+import Avatar2 from "../../../Assets/Avatar2.png";
+import Avatar3 from "../../../Assets/Avatar3.png";
 import './styles.css'
 
 interface IProps {
@@ -42,7 +44,24 @@ class Headline extends Component {
                     </div>
                 </Col>
                 <Col className="HeadlinePopularNFTsContainer" >
-                    <PopularNFTs name={"DeadFellaz#7084"} time={"12m : 03s"} bid={"53.90"} avatar={Avatar1} />
+                    <PopularNFTs
+                        name={"DeadFellaz#7084"}
+                        time={"12m : 03s"}
+                        bid={"53.90"}
+                        avatar={Avatar1}
+                        ContainerStyle={{ top: "100px", left: "10px", zIndex: 30 }} />
+                    <PopularNFTs
+                        name={"DeadFellaz#7084"}
+                        time={"12m : 03s"}
+                        bid={"53.90"}
+                        avatar={Avatar2}
+                        ContainerStyle={{ top: "70px", left: "50px", zIndex: 20 }} />
+                    <PopularNFTs
+                        name={"DeadFellaz#7084"}
+                        time={"12m : 03s"}
+                        bid={"53.90"}
+                        avatar={Avatar3}
+                        ContainerStyle={{ top: "40px", left: "90px", zIndex: 10 }} />
                 </Col>
                 <Col className="HeadlineStatsCol" lg={2} >
                     <div className="HeadlineStatsContainer" >

@@ -65,8 +65,12 @@
     flex-direction: column;
 }
 
-.HeadlinePopularNFTsContainer{
-    /* position: relative; */
+.HeadlinePopularNFTsContainer {
+    position: relative;
+    height: 600px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .P-NFTs-Footer-Time {
@@ -124,12 +128,10 @@
 }
 
 .PopularNFTsMainContainer {
-    /* position: relative; */
-    z-index: 100;
+    position: absolute;
+    /* z-index: 100; */
     width: 21.063vw;
     height: 477px;
-    top: 0;
-    left: 0;
     overflow: hidden;
     background: #FFFFFF;
     border: 1px solid #EFEFF2;
