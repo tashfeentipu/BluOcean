@@ -21,7 +21,7 @@ function App() {
       {/* <SearchCollections /> */}
       {/* <CreateNewItem /> */}
       {/* <StakingScreen /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
