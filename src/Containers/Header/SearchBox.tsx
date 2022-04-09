@@ -10,25 +10,39 @@ interface IProps {
 
 }
 
-class SearchBox extends Component {
+
+interface IState {
+    placeholder: string
+    focus: boolean
+    inputValue: string
+}
+
+class SearchBox extends Component<IProps, IState> {
     constructor(props: IProps) {
         super(props);
-        this.state = {};
+        this.state = {
+            placeholder: "Search any collection",
+            focus: false,
+            inputValue: "",
+        };
     }
 
     render() {
         return (
-            <FormControl sx={{ m: 1, width: '25ch' }} variant="filled">
-                <InputLabel htmlFor="filled-adornment-password">Password</InputLabel>
-                <OutlinedInput
-                    id="filled-adornment-password"
-                    startAdornment={
-                        <InputAdornment position="end">
-                            <img src={SearchIcon} />
-                        </InputAdornment>
-                    }
-                />
-            </FormControl>
+            <div className="HeaderSearchBoxContainer" >
+                <img src={SearchIcon} alt="" className="HeaderSearchBoxIcon" />
+                {!this.state.focus && <div className="HeaderSearchBoxPlaceholder" >{this.state.placeholder}</div>}
+                <input type="text" className="HeaderSearchBoxInput" onFocus={() => {
+                    this.setState({ focus: true })
+                }}
+                    value={this.state.inputValue}
+                    onChange={(e) => {
+                        this.setState({ inputValue: e.target.value })
+                    }}
+                    onBlur={() => {
+                        this.state.inputValue === "" && this.setState({ focus: false })
+                    }} />
+            </div>
         );
     }
 }

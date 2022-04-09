@@ -28,8 +28,8 @@ class FeaturedArtists extends Component<IProps, IState> {
                     </div>
                     <h6 className="FeaturedArtistsContent" >We carefully select <b style={{ color: "black" }} > 3 unique artists</b> every single week, it could be you!</h6>
                     <div className="FACContainer" >
-                        <FeaturedArtistsCard avatar={FAAvatar1} title={"RobertSuarez#347"} description={"Sweet Sweet Cherry Pink, its self is aligned in syzygy."} />
                         <FeaturedArtistsCard avatar={FAAvatar2} title={"RobertSuarez#347"} description={"Sweet Sweet Cherry Pink, its self is aligned in syzygy."} />
+                        <FeaturedArtistsCard avatar={FAAvatar1} title={"RobertSuarez#347"} description={"Sweet Sweet Cherry Pink, its self is aligned in syzygy."} />
                         <FeaturedArtistsCard avatar={FAAvatar3} title={"RobertSuarez#347"} description={"Sweet Sweet Cherry Pink, its self is aligned in syzygy."} />
                     </div>
                 </Col>

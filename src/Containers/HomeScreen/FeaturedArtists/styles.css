@@ -29,22 +29,49 @@
 
 .FACMainContainer {
     width: 24.938vw;
-    height: auto;
-    object-fit: contain;
-    overflow: hidden;
-    /* position: relative; */
+    position: relative;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .FACImage {
-    /* position: absolute; */
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
+}
+
+.FAC-Description-Container {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
 }
 
 .FACTitle {
-    /* position: absolute; */
+    width: 238px;
+    min-height: 25px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    margin-bottom: 1em;
+    color: #FFFFFF;
 }
 
 .FACDescription {
-    /* position: absolute; */
+    width: 357px;
+    min-height: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 1.5em;
 }

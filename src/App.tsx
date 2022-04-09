@@ -14,13 +14,13 @@ function App() {
   return (
     <div className='App' >
       <Header />
-      {/* <HomeScreen /> */}
+      <HomeScreen />
       {/* <GettingStarted /> */}
       {/* <CreateCollection /> */}
       {/* <TopNFTs /> */}
       {/* <SearchCollections /> */}
       {/* <CreateNewItem /> */}
-      <StakingScreen />
+      {/* <StakingScreen /> */}
       {/* <Footer /> */}
     </div>
   );

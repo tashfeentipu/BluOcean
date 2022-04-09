@@ -4,6 +4,7 @@
     align-items: center;
 }
 
+
 .HeadlineMainHeading {
     width: 28.688vw;
     height: 229px;
@@ -40,9 +41,6 @@
     color: #0F0E36;
 }
 
-.HeadlinePopularNFTsContainer {
-}
-
 .HeadlineStatsCol {
     color: #B4B4BF;
     display: flex;
@@ -67,9 +65,71 @@
     flex-direction: column;
 }
 
+.HeadlinePopularNFTsContainer{
+    /* position: relative; */
+}
+
+.P-NFTs-Footer-Time {
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 12px;
+    color: #0F0E36;
+}
+
+.P-NFTs-Footer-Time-Text {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #B4B4BF;
+
+}
+
+.P-NFTs-Footer-Bid-Container {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.P-NFTs-Footer-Time-Container {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.P-NFTs-Footer-Bid {
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 12px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #0F0E36;
+}
+
+.P-NFTs-Footer-Bid-Text {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    color: #B4B4BF;
+}
+
 .PopularNFTsMainContainer {
+    /* position: relative; */
+    z-index: 100;
     width: 21.063vw;
     height: 477px;
+    top: 0;
+    left: 0;
     overflow: hidden;
     background: #FFFFFF;
     border: 1px solid #EFEFF2;

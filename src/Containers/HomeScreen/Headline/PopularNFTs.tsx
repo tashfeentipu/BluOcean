@@ -35,20 +35,20 @@ class PopularNFTs extends Component<IProps, IState> {
                     </div>
                 </div>
                 <div className="PopularNFTsFooterContainer" >
-                    <div style={{ display: "flex", flexDirection: "column" }} >
-                        <span>
+                    <div style={{ display: "flex", flexDirection: "column" }} className="P-NFTs-Footer-Time-Container"  >
+                        <span className="P-NFTs-Footer-Time"  >
                             {this.props.time}
                         </span>
-                        <span>
+                        <span className="P-NFTs-Footer-Time-Text" >
                             Remaining Time
                         </span>
                     </div>
-                    <div style={{ display: "flex", flexDirection: "column" }}  >
-                        <span>
-                            <img src={Exclude} />
+                    <div style={{ display: "flex", flexDirection: "column" }} className="P-NFTs-Footer-Bid-Container"  >
+                        <span className="P-NFTs-Footer-Bid"  >
+                            <img src={Exclude} style={{ marginRight: "0.5em" }} />
                             {this.props.bid}
                         </span>
-                        <span>
+                        <span className="P-NFTs-Footer-Bid-Text"  >
                             Highest Bid
                         </span>
                     </div>

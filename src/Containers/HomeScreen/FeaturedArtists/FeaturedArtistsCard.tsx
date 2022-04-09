@@ -21,8 +21,10 @@ class FeaturedArtistsCard extends Component<IProps, IState> {
         return (
             <div className="FACMainContainer">
                 <img src={this.props.avatar} className="FACImage" />
-                <div className="FACTitle">{this.props.title}</div>
-                <div className="FACDescription">{this.props.description}</div>
+                <div className="FAC-Description-Container" >
+                    <div className="FACTitle">{this.props.title}</div>
+                    <div className="FACDescription">{this.props.description}</div>
+                </div>
             </div>
         );
     }

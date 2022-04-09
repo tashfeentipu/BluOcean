@@ -1,9 +1,36 @@
-.SearchBox {
-    width: 29.063vw;
-    height: 7.16vh;
+.HeaderSearchBoxContainer {
+    display: flex;
+    align-items: center;
+}
+
+.HeaderSearchBoxInput {
+    position: relative;
+    width: 465px;
+    height: 55px;
     border: 2px solid rgba(201, 201, 210, 0.27);
     box-sizing: border-box;
     border-radius: 5px;
+    padding-left: 3em;
+}
+
+.HeaderSearchBoxIcon {
+    position: absolute;
+    z-index: 100;
+    margin-left: 1em;
+}
+
+.HeaderSearchBoxPlaceholder {
+    position: absolute;
+    z-index: 100;
+    margin-left: 3em;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+
+    color: #9898A3;
+
 }
 
 
