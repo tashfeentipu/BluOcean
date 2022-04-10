@@ -51,3 +51,8 @@
     letter-spacing: 0.01em;
     color: #0F0E36;
 }
+
+.BBCSubContainer{
+    display: flex;
+    justify-content: space-between;
+}

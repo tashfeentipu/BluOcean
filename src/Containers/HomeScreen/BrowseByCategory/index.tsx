@@ -31,14 +31,18 @@ class BrowseByCategory extends Component<IProps, IState> {
                     <div className="BBCHeading">Browse by <b>Category</b></div>
                     <div className="BBCContent">Don’t know exactly what you’re looking for? Narrow your search browsing the categories.</div>
                 </Col>
-                <BBCCard name={"Art"} iconName={Art} />
-                <BBCCard name={"Music"} iconName={Music} />
-                <BBCCard name={"Domain Names"} iconName={DomainNames} />
-                <BBCCard name={"Photography"} iconName={Photography} />
-                <BBCCard name={"Sports"} iconName={Sports} />
-                <BBCCard name={"Trading Cards"} iconName={TradingCards} />
-                <BBCCard name={"Utility"} iconName={Utility} />
-                <BBCCard name={"Virtual Worlds"} iconName={VirtualWorlds} />
+                <Row className="BBCSubContainer">
+                    <BBCCard name={"Art"} iconName={Art} />
+                    <BBCCard name={"Music"} iconName={Music} />
+                    <BBCCard name={"Domain Names"} iconName={DomainNames} />
+                    <BBCCard name={"Photography"} iconName={Photography} />
+                </Row>
+                <Row className="BBCSubContainer" >
+                    <BBCCard name={"Sports"} iconName={Sports} />
+                    <BBCCard name={"Trading Cards"} iconName={TradingCards} />
+                    <BBCCard name={"Utility"} iconName={Utility} />
+                    <BBCCard name={"Virtual Worlds"} iconName={VirtualWorlds} />
+                </Row>
             </Row>
         );
     }

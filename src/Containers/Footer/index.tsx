@@ -17,17 +17,19 @@ class Footer extends Component {
     render() {
         return (
             <div className="FooterMainContainer" >
-                <Logo />
-                <NavItems />
+                <div className="FooterSubContainer" >
+                    <div className="FooterSubContainer2" >
+                        <Logo />
+                        <NavItems style={{ width: "60%" }} />
+                    </div>
+                    <EmailBox />
+                </div>
                 <div className="FooterTextContainer" >
                     <div className="FooterText1">
                         The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.
                     </div>
                     <div className="FooterText1" style={{ textAlign: "end" }} >
                         © 2022 Bluocean.xyz
-                    </div>
-                    <div>
-                        <EmailBox />
                     </div>
                 </div>
             </div>
