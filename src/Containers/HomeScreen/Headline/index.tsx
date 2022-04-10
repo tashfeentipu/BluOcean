@@ -21,7 +21,7 @@ class Headline extends Component {
     render() {
         return (
             <Row className="HeadlineMainContainer" >
-                <Col>
+                <Col className="HeadlineHeadingContainer" >
                     <div className="HeadlineMainHeading" >
                         Discover <b> Rare
                             Collections
@@ -38,9 +38,11 @@ class Headline extends Component {
                             Explore Artwork
                         </span>
                         <BsArrowRight className="ArrowRightStyle" />
-                        <hr />
-                        <FaDiscord />
-                        <FaTwitter />
+                        <hr style={{ width: "20%", height: "2px" }} />
+                        <div style={{ width: "10%", display: "flex", justifyContent: "space-between" }} >
+                            <FaDiscord />
+                            <FaTwitter />
+                        </div>
                     </div>
                 </Col>
                 <Col className="HeadlinePopularNFTsContainer" >
