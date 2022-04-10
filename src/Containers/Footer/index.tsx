@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Logo from "../../Components/Logo";
 import NavItems from "../../Components/NavItems";
+import EmailBox from "./EmailBox";
 import './styles.css';
 
 interface IProps {
@@ -24,6 +25,9 @@ class Footer extends Component {
                     </div>
                     <div className="FooterText1" style={{ textAlign: "end" }} >
                         © 2022 Bluocean.xyz
+                    </div>
+                    <div>
+                        <EmailBox />
                     </div>
                 </div>
             </div>
