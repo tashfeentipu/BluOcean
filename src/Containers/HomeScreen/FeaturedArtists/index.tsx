@@ -21,8 +21,8 @@ class FeaturedArtists extends Component<IProps, IState> {
 
     render() {
         return (
-            <Row className="FeaturedArtistsMainContainer" >
-                <Col>
+            <Row  >
+                <Col className="FeaturedArtistsMainContainer">
                     <div className="FeaturedArtistsHeading" >
                         Featured <b>Artists</b>
                     </div>
