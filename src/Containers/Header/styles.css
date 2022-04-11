@@ -64,3 +64,8 @@
     width: 16.105vw;
     justify-content: space-between;
 }
+
+.Header-Collapse-Container{
+    display: flex;
+    justify-content: flex-end;
+}

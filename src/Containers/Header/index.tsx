@@ -20,10 +20,9 @@ const Header = (props: IProps) => {
             <NavbarBrand href="/" >
                 <Logo />
             </NavbarBrand>
-            <NavbarToggler onClick={() => setToggle((prevState: boolean) => !prevState)}  />
+            <NavbarToggler onClick={() => setToggle((prevState: boolean) => !prevState)} />
             <SearchBox />
-            <Collapse isOpen={toggle} navbar>
-
+            <Collapse isOpen={toggle} navbar className="Header-Collapse-Container"  >
                 <NavItems />
             </Collapse>
             <div className="HeaderButtonContainer" >

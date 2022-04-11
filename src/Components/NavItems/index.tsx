@@ -1,15 +1,14 @@
-import React, { useState } from 'react'
-import { CSSProperties } from 'react';
-import { Link, NavLink } from 'react-router-dom';
-import { Collapse, DropdownItem, DropdownMenu, DropdownToggle, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, UncontrolledDropdown } from 'reactstrap';
-import "./styles.css"
+import React, { CSSProperties } from 'react';
+import { Link } from "react-router-dom";
+import { DropdownToggle, Nav, Navbar, NavItem, UncontrolledDropdown } from 'reactstrap';
+import { CreateCollection, SearchCollections, Staking } from "../../Routes/RouteNames";
+import "./styles.css";
 
 interface IProps {
     style?: CSSProperties
 }
 
 const NavItems = (props: IProps) => {
-
 
     return (
 
@@ -18,84 +17,65 @@ const NavItems = (props: IProps) => {
                 <NavItem className="NavItem" >
                     <UncontrolledDropdown nav inNavbar >
                         <DropdownToggle nav>
-                            Explore
+                            <Link to={SearchCollections} style={{ color: "#0F0E36", textDecoration: "none" }} >
+                                Explore
+                            </Link>
                         </DropdownToggle>
-                        <DropdownMenu>
-                            <DropdownItem>
-                                Option 1
-                            </DropdownItem>
-                            <DropdownItem>
-                                Option 2
-                            </DropdownItem>
+                        {/* <DropdownMenu>
                             <DropdownItem>
                                 Reset
                             </DropdownItem>
-                        </DropdownMenu>
+                        </DropdownMenu> */}
+                    </UncontrolledDropdown>
+                </NavItem>
+                <NavItem className="NavItem" >
+                    <UncontrolledDropdown nav inNavbar >
+                        <DropdownToggle nav>
+                            <Link to={Staking} style={{ color: "#0F0E36", textDecoration: "none" }} >
+                                Staking
+                            </Link>
+                        </DropdownToggle>
+                        {/* <DropdownMenu>
+                            <DropdownItem>
+                                Option 2
+                            </DropdownItem>
+                        </DropdownMenu> */}
                     </UncontrolledDropdown>
                 </NavItem>
                 <NavItem className="NavItem" >
                     <UncontrolledDropdown nav inNavbar >
                         <DropdownToggle nav >
-                            Explore
+                            <Link to={CreateCollection} style={{ color: "#0F0E36", textDecoration: "none" }} >
+                                Stats
+                            </Link>
                         </DropdownToggle>
-                        <DropdownMenu>
+                        {/* <DropdownMenu>
                             <DropdownItem>
                                 Option 1
                             </DropdownItem>
-                            <DropdownItem>
-                                Option 2
-                            </DropdownItem>
-                            <DropdownItem>
-                                Reset
-                            </DropdownItem>
-                        </DropdownMenu>
+                        </DropdownMenu> */}
                     </UncontrolledDropdown>
                 </NavItem>
                 <NavItem className="NavItem" >
                     <UncontrolledDropdown nav inNavbar >
-                        <DropdownToggle nav >
-                            Explore
+                        <DropdownToggle nav>
+                            <Link to={CreateCollection} style={{ color: "#DEAD2D", textDecoration: "none" }} >
+                                Create
+                            </Link>
                         </DropdownToggle>
-                        <DropdownMenu>
+                        {/* <DropdownMenu>
                             <DropdownItem>
                                 Option 1
                             </DropdownItem>
                             <DropdownItem>
                                 Option 2
                             </DropdownItem>
-                            <DropdownItem>
-                                Reset
-                            </DropdownItem>
-                        </DropdownMenu>
-                    </UncontrolledDropdown>
-                </NavItem>
-                <NavItem className="NavItem" >
-                    <UncontrolledDropdown nav inNavbar >
-                        <DropdownToggle nav >
-                            Explore
-                        </DropdownToggle>
-                        <DropdownMenu>
-                            <DropdownItem>
-                                Option 1
-                            </DropdownItem>
-                            <DropdownItem>
-                                Option 2
-                            </DropdownItem>
-                            <DropdownItem>
-                                Reset
-                            </DropdownItem>
-                        </DropdownMenu>
+                        </DropdownMenu> */}
                     </UncontrolledDropdown>
                 </NavItem>
             </Nav>
         </Navbar >
-        // <div className='NavItemContainer' style={props.style}  >
 
-        //     <div className="NavItem" >Explore</div>
-        //     <div className="NavItem" >Resources</div>
-        //     <div className="NavItem">Stats</div>
-        //     <div className="NavItem NavItemActive">Rewards</div>
-        // </div>
     );
 };
 
