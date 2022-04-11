@@ -1,12 +1,11 @@
-import React, { Component } from "react";
-import { Navbar } from "reactstrap";
-import ExportIcon from "../../Assets/ExportIcon.png";
-import SearchBox from "./SearchBox";
-
-import Logo from "../../Components/Logo";
-import './styles.css';
-import NavItems from "../../Components/NavItems";
+import React, { useState } from "react";
 import { useMetaMask } from "metamask-react";
+import { Collapse, Navbar, NavbarBrand, NavbarToggler } from "reactstrap";
+import ExportIcon from "../../Assets/ExportIcon.png";
+import Logo from "../../Components/Logo";
+import NavItems from "../../Components/NavItems";
+import SearchBox from "./SearchBox";
+import './styles.css';
 
 interface IProps {
 
@@ -14,11 +13,19 @@ interface IProps {
 
 const Header = (props: IProps) => {
     const { connect } = useMetaMask()
+    const [toggle, setToggle] = useState<boolean>(false)
+
     return (
-        <Navbar bg="light" expand="lg">
-            <Logo />
+        <Navbar expand="md" >
+            <NavbarBrand href="/" >
+                <Logo />
+            </NavbarBrand>
+            <NavbarToggler onClick={() => setToggle((prevState: boolean) => !prevState)}  />
             <SearchBox />
-            <NavItems />
+            <Collapse isOpen={toggle} navbar>
+
+                <NavItems />
+            </Collapse>
             <div className="HeaderButtonContainer" >
                 <button className="ConnectWalletButton" onClick={connect}  >
                     Connect wallet

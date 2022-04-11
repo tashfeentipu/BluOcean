@@ -1,31 +1,22 @@
 import React from 'react';
-import Header from "./Containers/Header";
-import Footer from "./Containers/Footer";
-import HomeScreen from "./Screens/Home";
-import './App.css'
 import { MetaMaskProvider } from "metamask-react";
-import GettingStarted from './Screens/GettingStarted';
-import CreateCollection from './Screens/CreateCollection';
-import TopNFTs from './Screens/TopNFTs';
-import SearchCollections from "./Screens/SearchCollections";
-import CreateNewItem from './Screens/CreateNewItem';
-import StakingScreen from './Screens/Staking';
+import { BrowserRouter } from "react-router-dom";
+import './App.css';
+import Footer from "./Containers/Footer";
+import Header from "./Containers/Header";
+import RoutesImport from "./Routes";
 
 function App() {
   return (
     <MetaMaskProvider>
       <div className='App' >
-        <Header />
-        <HomeScreen />
-        {/* <GettingStarted /> */}
-        {/* <CreateCollection /> */}
-        {/* <TopNFTs /> */}
-        {/* <SearchCollections /> */}
-        {/* <CreateNewItem /> */}
-        {/* <StakingScreen /> */}
-        <Footer />
+        <BrowserRouter>
+          <Header />
+          <RoutesImport />
+          <Footer />
+        </BrowserRouter>
       </div>
-    </MetaMaskProvider>
+    </MetaMaskProvider> 
   );
 }
 
