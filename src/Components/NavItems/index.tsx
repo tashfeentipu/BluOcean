@@ -1,7 +1,7 @@
 import React, { CSSProperties } from 'react';
 import { Link } from "react-router-dom";
 import { DropdownToggle, Nav, Navbar, NavItem, UncontrolledDropdown } from 'reactstrap';
-import { CreateCollection, SearchCollections, Staking } from "../../Routes/RouteNames";
+import { CreateCollection, ExploreCollections, Staking } from "../../Routes/RouteNames";
 import "./styles.css";
 
 interface IProps {
@@ -17,7 +17,7 @@ const NavItems = (props: IProps) => {
                 <NavItem className="NavItem" >
                     <UncontrolledDropdown nav inNavbar >
                         <DropdownToggle nav>
-                            <Link to={SearchCollections} style={{ color: "#0F0E36", textDecoration: "none" }} >
+                            <Link to={ExploreCollections} style={{ color: "#0F0E36", textDecoration: "none" }} >
                                 Explore
                             </Link>
                         </DropdownToggle>

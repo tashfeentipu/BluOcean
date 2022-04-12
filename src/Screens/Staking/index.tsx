@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Col, Container, Row } from "reactstrap";
+import { Container } from "reactstrap";
 import RightArrow from "../../Assets/RightArrow.png";
 import Subtract from "../../Assets/Subtract.png";
 import Trading from "../../Containers/Staking/Trading";
 import WaysToEarn from "../../Containers/Staking/WaysToEarn";
-import './styles.css'
+import './styles.css';
 
 interface IProps {
 }
