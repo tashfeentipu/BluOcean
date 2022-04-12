@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap";
 import TopNFTsTable from "../../Containers/TopNFTs";
+import DropdownMenus from "../../Containers/TopNFTs/DropdownMenus";
 import './styles.css';
 
 interface IProps {
@@ -25,6 +26,7 @@ class TopNFTs extends Component<IProps, IState> {
                 <div className="TopNFTsSubHeading" >
                     Try art, domains, planets, or anything you can think of!
                 </div>
+                <DropdownMenus />
                 <TopNFTsTable />
             </Container>
         );

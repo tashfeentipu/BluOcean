@@ -1,4 +1,4 @@
-.TNTableMainContainer {}
+/* .TNTableMainContainer {} */
 
 .TableHeaderMainContainer {
     height: 48px;
@@ -107,4 +107,56 @@
     letter-spacing: 0.05em;
     padding-left: 1em;
     color: #0F0E36;
+}
+
+.TNFT-Dropdown-Menus-Main-Container {
+    display: flex;
+    width: 600px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TNFT-Dropdown-Menu-Toggle {
+    width: 174px;
+    height: 44px;
+
+    border: 2px solid #0F0E36;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #0F0E36;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TNFT-Dropdown-Menu-Toggle:hover {
+    color: #0F0E36;
+}
+
+.TNFT-Dropdown-Menu-Item {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid #F0F1F4;
+}
+
+.TNFT-Dropdown-Menu-Text {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    margin-left: 2em;
+    color: #0F0E36;
+
 }

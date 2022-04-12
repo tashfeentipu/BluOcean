@@ -1,7 +1,7 @@
 import React, { CSSProperties } from 'react';
 import { Link } from "react-router-dom";
 import { DropdownToggle, Nav, Navbar, NavItem, UncontrolledDropdown } from 'reactstrap';
-import { CreateCollection, ExploreCollections, Staking } from "../../Routes/RouteNames";
+import { CreateCollection, ExploreCollections, Staking, TopNFTs } from "../../Routes/RouteNames";
 import "./styles.css";
 
 interface IProps {
@@ -20,12 +20,7 @@ const NavItems = (props: IProps) => {
                             <Link to={ExploreCollections} style={{ color: "#0F0E36", textDecoration: "none" }} >
                                 Explore
                             </Link>
-                        </DropdownToggle>
-                        {/* <DropdownMenu>
-                            <DropdownItem>
-                                Reset
-                            </DropdownItem>
-                        </DropdownMenu> */}
+                        </DropdownToggle>                       
                     </UncontrolledDropdown>
                 </NavItem>
                 <NavItem className="NavItem" >
@@ -35,25 +30,15 @@ const NavItems = (props: IProps) => {
                                 Staking
                             </Link>
                         </DropdownToggle>
-                        {/* <DropdownMenu>
-                            <DropdownItem>
-                                Option 2
-                            </DropdownItem>
-                        </DropdownMenu> */}
                     </UncontrolledDropdown>
                 </NavItem>
                 <NavItem className="NavItem" >
                     <UncontrolledDropdown nav inNavbar >
                         <DropdownToggle nav >
-                            <Link to={CreateCollection} style={{ color: "#0F0E36", textDecoration: "none" }} >
+                            <Link to={TopNFTs} style={{ color: "#0F0E36", textDecoration: "none" }} >
                                 Stats
                             </Link>
                         </DropdownToggle>
-                        {/* <DropdownMenu>
-                            <DropdownItem>
-                                Option 1
-                            </DropdownItem>
-                        </DropdownMenu> */}
                     </UncontrolledDropdown>
                 </NavItem>
                 <NavItem className="NavItem" >
@@ -63,14 +48,6 @@ const NavItems = (props: IProps) => {
                                 Create
                             </Link>
                         </DropdownToggle>
-                        {/* <DropdownMenu>
-                            <DropdownItem>
-                                Option 1
-                            </DropdownItem>
-                            <DropdownItem>
-                                Option 2
-                            </DropdownItem>
-                        </DropdownMenu> */}
                     </UncontrolledDropdown>
                 </NavItem>
             </Nav>
