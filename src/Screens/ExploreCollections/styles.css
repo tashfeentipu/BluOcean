@@ -1,31 +1,38 @@
 .Explore-Collections-Main-Container {
     margin-right: 2em;
     margin-left: 2em;
-    height: 200vh;
-    background: radial-gradient(50.06% 50.06% at 40.84% 49.94%, rgba(24, 56, 222, 0.1) 0%, rgba(254, 254, 254, 0) 100%);
+}
+
+.Explore-Collections-Heading-Container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .Explore-Collections-Main-Heading {
-    /* width: 685px; */
-    /* height: 28px; */
     font-family: 'Recoleta';
     font-style: normal;
     font-size: 34px;
-    line-height: 30px;
+    line-height: 50px;
     text-align: center;
     letter-spacing: 0.01em;
     color: #0F0E36;
 }
 
 .Explore-Collections-Sub-Heading {
-    /* width: 630px; */
-    /* height: 15px; */
-
     font-family: 'Sofia Pro';
     font-style: normal;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 30px;
     text-align: center;
 
     color: #0F0E36;
 }
+
+.Explore-Collections-Explore-Area {
+    background: #F8F9FA;
+    display: flex;
+    justify-content: space-between;
+}
+

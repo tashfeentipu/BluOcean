@@ -1,7 +1,33 @@
 .Exploration-Card-Main-Container {
     width: 350px;
     height: 400px;
+    margin-top: 1em;
+    margin-bottom: 1em;
     background: #FFFFFF;
+}
+
+
+.Explore-Options-Main-Container {
+    display: flex;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Explore-Options-Dropdown-Menu {
+    background: #F8F9FA;
+}
+
+.Explore-Options-Menu-Item {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    border: none;
+    background: none;
+    color: #B4B4BF;
 }
 
 .Exploration-Card-Image-Container {
