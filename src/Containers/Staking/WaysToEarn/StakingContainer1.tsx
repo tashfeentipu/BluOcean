@@ -19,11 +19,11 @@ class StakingContainer1 extends Component<IProps, IState> {
         return (
             <div className="StakingContainer1" >
                 <div className="SC1-SubContainer1" >
-                    <div>Input</div>
-                    <div>Balance: 5,295,000</div>
+                    <div className="SC1-SubContainer1-Heading1">Input</div>
+                    <div className="SC1-SubContainer1-Heading2">Balance: 5,295,000</div>
                 </div>
                 <div className="SC1-SubContainer2" >
-                    <input type="text" />
+                    <input type="text" className="SC1-SubContainer2"  />
                     <div className="SC1-Icon" >
                         <img src={WTEIcon} alt="" />
                     </div>

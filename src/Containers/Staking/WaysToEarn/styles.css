@@ -39,14 +39,19 @@
 .WTEStakingContainer {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .StakingContainer1 {
-    width: 464px;
+    /* width: 464px; */
     height: 76px;
     border: 2px solid #E9E9EC;
     box-sizing: border-box;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5em;
 }
 
 .SC1-Icon {
@@ -144,6 +149,29 @@
 
 .StakingMonthsDropdownText {
     width: 48px;
+    height: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    color: #0F0E36;
+
+}
+
+.SC1-SubContainer1-Heading1 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #0F0E36;
+}
+
+.SC1-SubContainer1-Heading2 {
+    width: 223px;
     height: 15px;
     font-family: 'Sofia Pro';
     font-style: normal;
