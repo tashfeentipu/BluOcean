@@ -18,7 +18,7 @@ class OfferSettings extends Component<IProps, IState> {
     render() {
         return (
             <div className="Offer-Settings-Main-Container" >
-                Home Component
+                Offer
             </div>
         );
     }

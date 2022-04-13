@@ -1,3 +1,32 @@
 .Settings-Main-Container {
-    
+    display: flex;
+}
+
+.Settings-NavMenu-Main-Container {
+    background-color: pink;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Settings-NavMenu-Item {
+    width: 200px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #0F0E36;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+
+    color: #0F0E36;
 }

@@ -6,6 +6,11 @@ import ExploreCollections from "../Screens/ExploreCollections";
 import GettingStarted from '../Screens/GettingStarted';
 import HomeScreen from "../Screens/Home";
 import SearchCollections from "../Screens/SearchCollections";
+import Settings from "../Screens/Settings";
+import NotificationsSettings from "../Screens/Settings/Notifications";
+import OfferSettings from "../Screens/Settings/Offer";
+import PaymentSettings from "../Screens/Settings/Payment";
+import ProfileSettings from "../Screens/Settings/Profile";
 import StakingScreen from '../Screens/Staking';
 import TopNFTs from '../Screens/TopNFTs';
 import * as RouteNames from "./RouteNames";
@@ -35,6 +40,12 @@ class RouteExport extends Component<IProps, IState> {
                 <Route path={RouteNames.Staking} element={<StakingScreen />} />
                 <Route path={RouteNames.ExploreCollections} element={<ExploreCollections />} />
                 <Route path={RouteNames.TopNFTs} element={<TopNFTs />} />
+                <Route path={`${RouteNames.Settings}*`} element={<Settings />}>
+                    <Route path={RouteNames.Profile} element={<ProfileSettings />} />
+                    <Route path={RouteNames.Offer} element={<OfferSettings />} />
+                    <Route path={RouteNames.Payment} element={<PaymentSettings />} />
+                    <Route path={RouteNames.Notifications} element={<NotificationsSettings />} />
+                </Route>
             </Routes>
         );
     }

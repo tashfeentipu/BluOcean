@@ -1,5 +1,13 @@
 import React, { Component } from "react";
+import { Outlet, Route, Routes } from "react-router-dom";
+import { Container } from "reactstrap";
+import SettingsNavMenu from "./SettingsNavMenu";
+import * as RouteNames from "../../Routes/RouteNames";
 import './styles.css';
+import ProfileSettings from "./Profile";
+import NotificationsSettings from "./Notifications";
+import PaymentSettings from "./Payment";
+import OfferSettings from "./Offer";
 
 interface IProps {
 
@@ -17,9 +25,10 @@ class Settings extends Component<IProps, IState> {
 
     render() {
         return (
-            <div className="Settings-Main-Container" >
-                Home Component
-            </div>
+            <Container className="Settings-Main-Container" >
+                <SettingsNavMenu />
+                <Outlet />
+            </Container>
         );
     }
 }

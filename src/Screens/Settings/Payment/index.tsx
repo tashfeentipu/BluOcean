@@ -18,7 +18,7 @@ class PaymentSettings extends Component<IProps, IState> {
     render() {
         return (
             <div className="Payment-Settings-Main-Container" >
-                Home Component
+                Payment
             </div>
         );
     }

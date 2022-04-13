@@ -18,7 +18,7 @@ class ProfileSettings extends Component<IProps, IState> {
     render() {
         return (
             <div className="Profile-Settings-Main-Container" >
-                Home Component
+                Profile
             </div>
         );
     }

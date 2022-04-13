@@ -9,7 +9,7 @@ interface IState {
 
 }
 
-class NotificationsSetting extends Component<IProps, IState> {
+class NotificationsSettings extends Component<IProps, IState> {
     constructor(props: IProps) {
         super(props);
         this.state = {};
@@ -18,10 +18,10 @@ class NotificationsSetting extends Component<IProps, IState> {
     render() {
         return (
             <div className="Notifications-Setting-Main-Container" >
-                Home Component
+                Notifications
             </div>
         );
     }
 }
 
-export default NotificationsSetting;
+export default NotificationsSettings;
