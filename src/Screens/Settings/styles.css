@@ -3,7 +3,6 @@
 }
 
 .Settings-NavMenu-Main-Container {
-    background-color: pink;
     height: 300px;
     display: flex;
     flex-direction: column;

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Container } from "reactstrap";
 import './styles.css';
 
 interface IProps {
@@ -17,9 +18,9 @@ class OfferSettings extends Component<IProps, IState> {
 
     render() {
         return (
-            <div className="Offer-Settings-Main-Container" >
+            <Container className="Offer-Settings-Main-Container" >
                 Offer
-            </div>
+            </Container>
         );
     }
 }

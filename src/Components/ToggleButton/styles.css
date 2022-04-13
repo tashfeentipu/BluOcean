@@ -1,0 +1,56 @@
+.Toggle-Button-Switch {
+    position: relative;
+    width: 41px;
+    height: 20px;
+    cursor: pointer;
+    border: 2px solid #0F0E36;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.Toggle-Button-Switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.Toggle-Button-Slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.Toggle-Button-Slider:before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    bottom: 3px;
+    top: 3px;
+    left: 3px;
+    background: #0F0E36;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.Toggle-Button-Slider {
+    /* background-color: #2196F3; */
+}
+
+input:focus+.Toggle-Button-Switch {
+    border: 2px solid #2196F3;
+}
+
+input:checked+.Toggle-Button-Slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}

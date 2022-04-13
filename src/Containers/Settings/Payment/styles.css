@@ -1,0 +1,74 @@
+.Payment-Settings-Heading {
+    width: 609px;
+    height: 36px;
+    font-family: 'Recoleta';
+    font-style: normal;
+    font-size: 38px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.Payment-Settings-Sub-Heading {
+    width: 609px;
+    height: 60px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F0E36;
+}
+
+.Payment-Settings-Sub-Heading-1 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.Payment-Settings-SH-Container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Payment-Settings-Sub-Description-1 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #91919F;
+}
+
+.Payment-Settings-Button {
+    width: 87px;
+    height: 33px;
+    border: 2px solid #0F0E36;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+
+    color: #0F0E36;
+
+    background: none;
+
+}
+
+.Payment-Settings-List-Item {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #91919F;
+}
