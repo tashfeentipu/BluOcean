@@ -19,7 +19,7 @@ class TableHeader extends Component<IProps, IState> {
         return (
             <thead>
                 <tr className="Offer-Table-Header-Main-Container" >
-                    <th className="Offer-Table-Header-Row"> Collection </th>
+                    <th className="Offer-Table-Header-Row-1"> Collection </th>
                     <th className="Offer-Table-Header-Row"> Minimum Offer </th>
                 </tr>
             </thead>

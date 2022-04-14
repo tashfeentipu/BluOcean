@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Col, Container, Row, Table } from "reactstrap";
+import { Col, Container, Row } from "reactstrap";
+import { OfferTableBody } from "../../../Types/Settings";
 import './styles.css';
 import TableBody from "./TableBody";
 import TableHeader from "./TableHeader";
@@ -9,13 +10,15 @@ interface IProps {
 }
 
 interface IState {
-
+    tableData: Array<OfferTableBody>
 }
 
 class OfferSettings extends Component<IProps, IState> {
     constructor(props: IProps) {
         super(props);
-        this.state = {};
+        this.state = {
+            tableData: [{ content1: "OS Tutorials", content2: "Floor price: 1 ETH" }, { content1: "OS Tutorials", content2: "Floor price: 1 ETH" }, { content1: "OS Tutorials", content2: "Floor price: 1 ETH" }, { content1: "OS Tutorials", content2: "Floor price: 1 ETH" }, { content1: "OS Tutorials", content2: "Floor price: 1 ETH" }, { content1: "OS Tutorials", content2: "Floor price: 1 ETH" }, { content1: "OS Tutorials", content2: "Floor price: 1 ETH" }, { content1: "OS Tutorials", content2: "Floor price: 1 ETH" }, { content1: "OS Tutorials", content2: "Floor price: 1 ETH" }]
+        };
     }
 
     render() {
@@ -25,10 +28,14 @@ class OfferSettings extends Component<IProps, IState> {
                     <Col>
                         <div className="Offer-Settings-Main-Heading">Offer <b>Settings</b></div>
                         <div className="Offer-Settings-Sub-Heading">Set a minimum offer for collections to ignore low offers.</div>
-                        <Table borderless >
+                        <table>
                             <TableHeader />
-                            <TableBody />
-                        </Table>
+                            {
+                                this.state.tableData.map((element: OfferTableBody) => {
+                                    return <TableBody content1={element.content1} content2={element.content2} />
+                                })
+                            }
+                        </table>
                     </Col>
                 </Row>
             </Container>
