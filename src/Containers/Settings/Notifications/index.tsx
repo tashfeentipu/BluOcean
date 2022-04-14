@@ -4,6 +4,7 @@ import ToggleButton from "../../../Components/ToggleButton";
 import MenuItems from "../../../Assets/MenuItems.png";
 import './styles.css';
 import NotificationItem from "./NotificationItem";
+import ThresholdInput from "./ThresholdInput";
 
 interface IProps {
 
@@ -35,6 +36,18 @@ class NotificationsSettings extends Component<IProps, IState> {
                         <NotificationItem content1={"Price Change"} content2={"When an item you made an offer on changes in price"} />
                         <NotificationItem content1={"Auction Expiration"} content2={"When a timed auction you created ends"} />
                         <NotificationItem content1={"Owned Item Updates"} content2={"When a significant update occurs for one of the items you have purchased on Bluocean"} />
+                        <div className="Notifications-Setting-Heading-Container-2">
+                            <div className="Notifications-Setting-Bid-Heading" >
+                                Minimum Bid Threshold
+                            </div>
+                            <div className="Notifications-Setting-Bid-Content" >
+                                Receive notifications only when you receive offers with a value greater than or equal to this amount of ETH.
+                            </div>
+                            <ThresholdInput />
+                        </div>
+                        <button className="Notifications-Setting-Save-Button" >
+                            Save
+                        </button>
 
                     </Col>
                 </Row>

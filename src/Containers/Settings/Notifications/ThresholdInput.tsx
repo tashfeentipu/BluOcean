@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SearchIcon from "../../Assets/SearchIcon.png";
+import Exclude from "../../../Assets/Exclude.png";
 import './styles.css';
 
 interface IProps {
@@ -13,11 +13,11 @@ interface IState {
     inputValue: string
 }
 
-class SearchBox extends Component<IProps, IState> {
+class ThresholdInput extends Component<IProps, IState> {
     constructor(props: IProps) {
         super(props);
         this.state = {
-            placeholder: "Search any collection",
+            placeholder: "Minimum Bid Threshold",
             focus: false,
             inputValue: "",
         };
@@ -25,10 +25,10 @@ class SearchBox extends Component<IProps, IState> {
 
     render() {
         return (
-            <div className="HeaderSearchBoxContainer" >
-                <img src={SearchIcon} alt="" className="HeaderSearchBoxIcon" />
-                {!this.state.focus && <div className="HeaderSearchBoxPlaceholder" >{this.state.placeholder}</div>}
-                <input type="text" className="HeaderSearchBoxInput" onFocus={() => {
+            <div className="Threshold-Input-Container" >
+                <img src={Exclude} alt="" className="Threshold-Input-Icon" />
+                {!this.state.focus && <div className="Threshold-Input-Placeholder" >{this.state.placeholder}</div>}
+                <input type="text" className="Threshold-Input-Input" onFocus={() => {
                     this.setState({ focus: true })
                 }}
                     value={this.state.inputValue}
@@ -43,4 +43,4 @@ class SearchBox extends Component<IProps, IState> {
     }
 }
 
-export default SearchBox;
+export default ThresholdInput;

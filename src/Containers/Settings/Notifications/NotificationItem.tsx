@@ -26,7 +26,7 @@ class NotificationItem extends Component<IProps, IState> {
                     <div className="Notifications-Setting-Sub-Container-3" >
                         <img src={MenuItems} alt="" />
                     </div>
-                    <div className="Notifications-Setting-Sub-Container-4" >
+                    <div>
                         <div className="Notifications-Setting-Content-1">{this.props.content1}</div>
                         <div className="Notifications-Setting-Content-2">{this.props.content2}</div>
                     </div>
