@@ -1,10 +1,7 @@
 .Notifications-Setting-Heading-Container {
-    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 1em;
-    margin-bottom: 1em;
 }
 
 .Notifications-Setting-Heading-Container-2 {
@@ -16,6 +13,7 @@
 
 .Notifications-Setting-Main-Heading {
     font-family: 'Recoleta';
+    margin-bottom: 1em;
     font-style: normal;
     font-size: 38px;
     line-height: 30px;
@@ -30,6 +28,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 1em;
     color: #B4B4BF;
 }
 

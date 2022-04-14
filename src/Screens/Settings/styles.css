@@ -1,5 +1,7 @@
 .Settings-Main-Container {
     display: flex;
+    margin-top: 3em;
+    min-height: 60vh;
 }
 
 .Settings-NavMenu-Main-Container {

@@ -1,13 +1,27 @@
 .Profile-Settings-Main-Heading {
     width: 610px;
-    height: 36px;
-
+    margin-bottom: 1em;
     font-family: 'Recoleta';
     font-style: normal;
     font-size: 38px;
     line-height: 30px;
     letter-spacing: 0.01em;
-
     color: #0F0E36;
+}
 
+.Profile-Settings-Label {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #0F0E36;
+}
+
+.Profile-Settings-Save-Button {
+    width: 100%;
+    height: 50px;
+    background: #1838DE;
+    border-radius: 5px;
 }

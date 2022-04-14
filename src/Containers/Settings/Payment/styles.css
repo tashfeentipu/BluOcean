@@ -1,12 +1,12 @@
 .Payment-Settings-Heading {
     width: 609px;
-    height: 36px;
     font-family: 'Recoleta';
     font-style: normal;
     font-size: 38px;
     line-height: 30px;
     letter-spacing: 0.01em;
     color: #0F0E36;
+    margin-bottom: 1em;
 }
 
 .Payment-Settings-Sub-Heading {
@@ -15,6 +15,7 @@
     font-family: 'Sofia Pro';
     font-style: normal;
     font-size: 14px;
+    margin-bottom: 1em;
     line-height: 20px;
     color: #0F0E36;
 }

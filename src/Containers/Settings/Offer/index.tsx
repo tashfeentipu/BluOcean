@@ -25,7 +25,7 @@ class OfferSettings extends Component<IProps, IState> {
         return (
             <Container className="Offer-Settings-Main-Container" >
                 <Row>
-                    <Col>
+                    <Col md={{size: 8, offset: 1}} >
                         <div className="Offer-Settings-Main-Heading">Offer <b>Settings</b></div>
                         <div className="Offer-Settings-Sub-Heading">Set a minimum offer for collections to ignore low offers.</div>
                         <table>

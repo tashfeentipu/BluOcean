@@ -42,7 +42,7 @@ class TableBody extends Component<IProps, IState> {
                             2 Items
                         </div>
                     </td>
-                    <td className="Offer-Table-Body-Row-2" >
+                    <td>
                         <div className="Offer-Table-Input-Container" >
                             <img src={Exclude} alt="" className="Offer-Table-Input-Icon" />
                             {!this.state.focus && <div className="Offer-Table-Input-Placeholder" >{this.state.placeholder}</div>}
