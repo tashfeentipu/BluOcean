@@ -42,7 +42,7 @@
 }
 
 input:checked+.Toggle-Button-Slider {
-    /* background-color: #2196F3; */
+    background-color: #2196F3;
 }
 
 input:focus+.Toggle-Button-Switch {
