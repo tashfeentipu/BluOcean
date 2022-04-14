@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import { Col, Container, Row } from "reactstrap";
+import { Col, Container, Row, Table } from "reactstrap";
 import './styles.css';
+import TableBody from "./TableBody";
+import TableHeader from "./TableHeader";
 
 interface IProps {
 
@@ -23,6 +25,10 @@ class OfferSettings extends Component<IProps, IState> {
                     <Col>
                         <div className="Offer-Settings-Main-Heading">Offer <b>Settings</b></div>
                         <div className="Offer-Settings-Sub-Heading">Set a minimum offer for collections to ignore low offers.</div>
+                        <Table borderless >
+                            <TableHeader />
+                            <TableBody />
+                        </Table>
                     </Col>
                 </Row>
             </Container>

@@ -15,3 +15,56 @@
     line-height: 20px;
     color: #B4B4BF;
 }
+
+.Offer-Table-Header-Main-Container {
+    width: 609px;
+}
+
+.Offer-Table-Header-Row {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1em;
+    color: #0F0E36;
+}
+
+.Offer-Table-Body-Content-1 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 0.8em;
+    color: #0F0E36;
+}
+
+.Offer-Table-Body-Content-2 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 0.8em;
+    color: #B4B4BF;
+
+}
+
+.Offer-Table-Body-Content-3 {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 0.8em;
+    color: #0F0E36;
+
+}
+
+.Offer-Table-Body-Row{
+    display: flex;
+    justify-content: space-between;
+    background-color: purple;
+}
+
+.Offer-Table-Body-Sub-Row{
+    display: flex;
+    background-color: pink;
+}

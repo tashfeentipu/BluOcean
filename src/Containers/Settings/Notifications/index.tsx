@@ -43,7 +43,7 @@ class NotificationsSettings extends Component<IProps, IState> {
                             <div className="Notifications-Setting-Bid-Content" >
                                 Receive notifications only when you receive offers with a value greater than or equal to this amount of ETH.
                             </div>
-                            <ThresholdInput />
+                            <ThresholdInput placeholder={"Minimum Bid Threshold"} />
                         </div>
                         <button className="Notifications-Setting-Save-Button" >
                             Save

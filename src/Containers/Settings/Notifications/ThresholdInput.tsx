@@ -1,14 +1,14 @@
-import React, { Component } from "react";
+import React, { Component, CSSProperties } from "react";
 import Exclude from "../../../Assets/Exclude.png";
 import './styles.css';
 
 interface IProps {
-
+    style?: CSSProperties
+    placeholder: string
 }
 
 
 interface IState {
-    placeholder: string
     focus: boolean
     inputValue: string
 }
@@ -17,7 +17,6 @@ class ThresholdInput extends Component<IProps, IState> {
     constructor(props: IProps) {
         super(props);
         this.state = {
-            placeholder: "Minimum Bid Threshold",
             focus: false,
             inputValue: "",
         };
@@ -25,9 +24,9 @@ class ThresholdInput extends Component<IProps, IState> {
 
     render() {
         return (
-            <div className="Threshold-Input-Container" >
+            <div className="Threshold-Input-Container" style={this.props.style} >
                 <img src={Exclude} alt="" className="Threshold-Input-Icon" />
-                {!this.state.focus && <div className="Threshold-Input-Placeholder" >{this.state.placeholder}</div>}
+                {!this.state.focus && <div className="Threshold-Input-Placeholder" >{this.props.placeholder}</div>}
                 <input type="text" className="Threshold-Input-Input" onFocus={() => {
                     this.setState({ focus: true })
                 }}
