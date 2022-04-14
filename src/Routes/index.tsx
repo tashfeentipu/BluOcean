@@ -14,6 +14,7 @@ import ProfileSettings from "../Containers/Settings/Profile";
 import StakingScreen from '../Screens/Staking';
 import TopNFTs from '../Screens/TopNFTs';
 import * as RouteNames from "./RouteNames";
+import ViewNFT from "../Screens/ViewNFT";
 
 interface IProps {
 
@@ -39,6 +40,7 @@ class RouteExport extends Component<IProps, IState> {
                 <Route path={RouteNames.CreateNewItem} element={<CreateNewItem />} />
                 <Route path={RouteNames.Staking} element={<StakingScreen />} />
                 <Route path={RouteNames.ExploreCollections} element={<ExploreCollections />} />
+                <Route path={RouteNames.ViewNFT} element={<ViewNFT />} />
                 <Route path={RouteNames.TopNFTs} element={<TopNFTs />} />
                 <Route path={`${RouteNames.Settings}*`} element={<Settings />}>
                     <Route path={RouteNames.Profile} element={<ProfileSettings />} />

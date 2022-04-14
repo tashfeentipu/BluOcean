@@ -27,12 +27,12 @@
     height: 40px;
     border: 1px solid #EFEFF2;
     border-radius: 5px;
-
     padding: 100px;
 }
 
 .Offer-Table-Header-Row-1 {
     width: 459px;
+    padding-left: 1em;
 }
 
 .Offer-Table-Header-Row {
@@ -42,7 +42,9 @@
     font-weight: 700;
     font-size: 1em;
     line-height: 1em;
+    padding-left: 1em;
     color: #0F0E36;
+    border-left: 1px solid #EFEFF2;
 }
 
 .Offer-Table-Body-Content-1 {
@@ -99,7 +101,6 @@
 }
 
 .Offer-Table-Input-Container {
-    /* width: 108px; */
     height: 100%;
     border: 1px solid #EFEFF2;
     box-sizing: border-box;
