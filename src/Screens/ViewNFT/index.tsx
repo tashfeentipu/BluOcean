@@ -22,7 +22,7 @@ class ViewNFT extends Component<IProps, IState> {
             <Row className="View-NFT-Main-Container" >
                 <Col>
                     <Col>
-                        <img src="" alt="" />
+                        <img src={Avatar1} alt="" style={{width: "55px", height: "" }} />
                     </Col>
                 </Col>
             </Row>
